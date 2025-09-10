@@ -13,7 +13,7 @@ namespace Tyuiu.VostrAE.Sprint0.Task0.Vo
             Console.WriteLine("Hello, World");
             string name = "Саша";
             int age = 17;
-            Console.WriteLine("Здравствуйте меня зовут " + name + ", мне " + age + " лет!" +"");
+            Console.WriteLine("Здравствуйте, меня зовут " + name + ", мне " + age + " лет!" +"");
             Console.ReadKey();
         }
     }
