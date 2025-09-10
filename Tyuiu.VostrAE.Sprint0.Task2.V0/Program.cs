@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tyuiu.VostrAE.Sprint0.Task2.V0.Lib;
 
 namespace Tyuiu.VostrAE.Sprint0.Task0.Vo
 {
@@ -10,11 +11,9 @@ namespace Tyuiu.VostrAE.Sprint0.Task0.Vo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World");
-            string name = "Саша";
-            int age = 17;
-            Console.WriteLine("Здравствуйте, меня зовут " + name + ", мне " + age + " лет!" +"");
+            Console.WriteLine(DataService.GetMessage("Саша"));
             Console.ReadKey();
+            
         }
     }
 }
